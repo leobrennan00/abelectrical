@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Leo's Solar Insights</title>
+    <meta name="description" content="Stay informed with the latest solar energy trends, tips, and insights from Leo's Solar experts.">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg" alt="Leo's Solar Logo" class="logo">
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <div class="nav-dropdown">
+                    <button class="nav-link dropdown-toggle active" id="dropdown-toggle">
+                        More Info
+                        <svg class="dropdown-icon" viewBox="0 -960 960 960" fill="currentColor">
+                            <path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                        <a href="contact.html" class="dropdown-link">Contact Us</a>
+                        <a href="faq.html" class="dropdown-link">FAQs</a>
+                        <a href="blog.html" class="dropdown-link active">Blog Posts</a>
+                    </div>
+                </div>
+                <div class="nav-buttons">
+                    <button class="btn btn-outline">Join</button>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <span class="section-label">Insights</span>
+                <h1 class="page-title">Leo's Solar Insights</h1>
+                <p class="page-description">Welcome to Leo's Solar Insights, your go-to source for the latest in solar energy trends and tips. Here, you'll discover informative articles, expert advice, and innovative solutions to harness the power of the sun.</p>
+                <div class="page-buttons">
+                    <button class="btn btn-primary">Learn More</button>
+                    <button class="btn btn-outline">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore Our Featured Blogs</h2>
+                <p class="section-description">Discover insights and trends in solar energy.</p>
+            </div>
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">View All</button>
+                <button class="category-tab" data-category="tips">Solar Tips</button>
+                <button class="category-tab" data-category="news">Industry News</button>
+                <button class="category-tab" data-category="reviews">Product Reviews</button>
+                <button class="category-tab" data-category="studies">Case Studies</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid">
+        <div class="container">
+            <div class="blog-posts" id="blog-posts">
+                <article class="blog-card" data-category="tips">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/9875414/pexels-photo-9875414.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="The Future of Solar Energy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Insights</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">The Future of Solar Energy</a>
+                        </h3>
+                        <p class="blog-excerpt">Explore the innovations shaping the solar industry today and tomorrow.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tips">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/9875421/pexels-photo-9875421.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="How Solar Panels Work">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Trends</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">How Solar Panels Work</a>
+                        </h3>
+                        <p class="blog-excerpt">A comprehensive guide to understanding solar panel technology and its benefits.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="news">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/9875365/pexels-photo-9875365.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Benefits of Solar Energy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Technology</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">Benefits of Solar Energy</a>
+                        </h3>
+                        <p class="blog-excerpt">Discover the environmental and financial advantages of switching to solar power.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="reviews">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/9875367/pexels-photo-9875367.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Solar Energy Myths Debunked">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Benefits</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">Solar Energy Myths Debunked</a>
+                        </h3>
+                        <p class="blog-excerpt">Separating fact from fiction about solar energy to help you make informed decisions.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tips">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/9875426/pexels-photo-9875426.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Choosing the Right Solar System">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Myths</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">Choosing the Right Solar System</a>
+                        </h3>
+                        <p class="blog-excerpt">Key factors to consider when selecting a solar energy system for your home.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="studies">
+                    <div class="blog-image">
+                        <img src="https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Maximizing Solar Efficiency">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Guides</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">
+                            <a href="blog-post.html">Maximizing Solar Efficiency</a>
+                        </h3>
+                        <p class="blog-excerpt">Tips and tricks to get the most out of your solar energy system.</p>
+                        <a href="blog-post.html" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2 class="newsletter-title">Stay Updated on Solar Energy</h2>
+                    <p class="newsletter-description">Subscribe to our newsletter for the latest insights, news, and exclusive offers in solar energy. Don't miss out on valuable information that can help you make informed decisions.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your Email Here" required>
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                </form>
+                <p class="newsletter-disclaimer">By clicking Subscribe Now, you agree to our Terms and Conditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg" alt="Leo's Solar Logo">
+                    </a>
+                    <nav class="footer-nav">
+                        <a href="index.html">Home Page</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Our Services</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </nav>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 class="newsletter-title">Join Our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-outline">Subscribe</button>
+                    </form>
+                    <p class="newsletter-disclaimer">By subscribing you agree to our Privacy Policy</p>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+                <p class="footer-copyright">© 2024 Leo's Solar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>
